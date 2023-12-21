@@ -37,9 +37,10 @@ class MyHomePage extends StatelessWidget {
             RepaintBoundary(
               key: globalKey,
               child: QrImageView(
+                 backgroundColor: Colors.white,
                 data: qrData,
-                version: QrVersions.auto,
-                size: 200.0,
+             //   version: QrVersions.auto,
+                size: 500.0,
               ),
             ),
             SizedBox(height: 20),
